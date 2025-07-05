@@ -4,7 +4,7 @@ LABEL maintainer="Vicente Zepeda <chente.z.m@gmail.com>"
 ENV nginxversion="1.14.0-1" \
     os="centos" \
     osversion="7" \
-    elversion="7_4"
+    elversion="7"
 
 RUN yum install -y wget openssl sed &&\
     yum -y autoremove &&\
